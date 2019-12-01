@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>{!! $name !!}</h1> 
+    <h1>My Blog post</h1>
+    <p>{{$post}}</p> 
 </body>
 </html>

@@ -46,6 +46,7 @@
 
     in the templateing eingine the {{ $name }} syntax escapes the data
         but 
-    the { !! $name !! } syntax will not escape it (JS will run in this case 
+    the {!! $name !!} syntax will not escape it (JS will run in this case 
         -> ?name = <script>..)
-    sometimes we might not want to escape the data (e.g. if we fetch html from the database)
+    sometimes we might not want to escape the data (e.g. if we fetch html from the 
+    database)
